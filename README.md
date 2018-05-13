@@ -1,4 +1,5 @@
 # batchOverflow
+[![Build Status](https://travis-ci.org/phzietsman/batchOverflow.svg?branch=master)](https://travis-ci.org/phzietsman/batchOverflow)
 
 A fix for the [batchOverflow bug](https://medium.com/@peckshield/alert-new-batchoverflow-bug-in-multiple-erc20-smart-contracts-cve-2018-10299-511067db6536) found by the [PeckShield](https://peckshield.com/) team.
 

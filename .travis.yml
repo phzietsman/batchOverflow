@@ -4,7 +4,6 @@ sudo: required
 
 node_js:
   - "6.3"
-  - "6.9"
 
 env:
   - CXX=g++-4.8
