@@ -10,7 +10,7 @@ contract BatchNoOverflow {
 		
 		require(cnt > 0 && cnt <= 20);
 		require(_value > 0 && balances[msg.sender] >= amount);
-		require(balances[msg.sender] > (balances[msg.sender] - amount));
+		require(amount >= _value);
 
 		balances[msg.sender] = balances[msg.sender] - amount;
 
